@@ -1,4 +1,5 @@
-# novo
+<div id="app"></div>
+
 <div id="app"></div>
 
     <html>
@@ -961,4 +962,48 @@ head runat="server">
     </form>
 </body>
 </html>
+<form>
+    Defina seu nível de satisfação:<br>
+    pouco satisfeito
+    <input type="range" name="satisfacao" min="0" max="10">
+    muito satisfeito
+</form>
+<html>
+ <head>
+ <title>Formulário de contato com HTML5 + CSS3</title>
+ <meta charset="utf-8">
+ <link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+
+<body>
+
+
+
+<form name="formteste" action="" method="post">
+
+<h1>Contato</h1>
+
+<p class="nome">
+ <input type="text" name="nome" placeholder="informe seu nome" required="required">
+ </p>
+
+<p class="email">
+ <input type="email" name="email" placeholder="informe seu email" required="required">
+ </p>
+
+<p class="assunto">
+ <input type="text" name="assunto" placeholder="informe o assunto" required="required">
+ </p>
+
+<p class="mensagem">
+ <textarea name="mensagem" placeholder="deixe sua mensagem"></textarea>
+ </p>
+
+<p class="enviar">
+ <input type="submit" name="enviar" value="Enviar">
+ </p>
+
+</form>
+
+</body>
 
